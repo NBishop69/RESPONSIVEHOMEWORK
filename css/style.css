@@ -1,0 +1,71 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 3em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: .75em;
+   font-family:Arial, sans-serif;
+   text-align: center;
+}
+
+img{
+  width:100%;
+  border: solid 2px #000;
+  border-radius: 1em;
+}
+
+
+p{
+  text-align:center;
+}
+
+div img{
+    width:60%;
+    height: 60%;
+    display:inline-block;
+    margin:auto;
+}
+
+div{
+  display: block;
+  width: 24%;
+  margin: 5px;
+  padding: 2px;
+}
+
+/*This is the sizeing for the ipad*/
+@media all and (min-width: 772px) {
+    div {
+      display: inline-block;
+      width: 45vw;
+    }
+    
+    div img {
+        max-height: 30vh;
+    }
+}
+    
+
+
+/*This is the sizeing for the desktop*/
+@media all and (min-width: 998px) {
+    div {
+      width: 30vw;
+    }
+}
+
+
+
